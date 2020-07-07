@@ -1,0 +1,20 @@
+{
+  "contributions": [
+    {
+      "id": "build-definition-menu-item",
+      "type": "ms.vss-web.action",
+      "targets": [
+        "ms.vss-build-web.build-definition-menu",
+        "ms.vss-work-web.work-item-query-menu",
+        "ms.vss-work-web.work-item-context-menu"
+      ],
+      "properties": {
+        "text": "Sample build definition menu item",
+        "uri": "dist/Menu/Menu.html",
+        "icon": "static/add-green.png",
+        "registeredObjectId": "sample-build-menu"
+      }
+    }
+  ],
+  "scopes": ["vso.build"]
+}
